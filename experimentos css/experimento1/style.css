@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+}
+
+ul{
+    display: flex;  
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: color, text-decoration, font-size .5s;
+}
+
+a:hover{
+    color: pink;
+    text-decoration: underline;
+    font-size: 20px;
+}
